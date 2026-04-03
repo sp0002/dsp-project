@@ -118,8 +118,8 @@ Although using pre-emphasis boosts the accuracy of clean audio clips, noisy and 
 ### Results
 | Version | Accuracy |
 |---|---|
-| Clean | 54.50% |
-| Noisy | 45.25% |
-| Band-limited | 40.25% |
+| Clean | 54.25% |
+| Noisy | 46.50% |
+| Band-limited | 43.00% |
 
 
