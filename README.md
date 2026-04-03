@@ -2,7 +2,7 @@
 
 
 ## Running and reproducing this Repo
-If you have git, make you can do `git clone ihetihet`. If not, download this repository as zip.
+If you have git, make you can do `git clone https://github.com/sp0002/dsp-project.git`. If not, download this repository as zip.
 
 You can run the file either in Google Colab or locally on your computer.
 
@@ -26,6 +26,7 @@ You can run the file either in Google Colab or locally on your computer.
 9. Depending on your computer, it can take some time to complete.
 10. The predictions are under Pr_40_predictions.csv
 
+CEG3004_Project_Visualise.ipynb is availavle to visualise how the filters work on the audio tracks and to check the accuracy of the final submission.
 
 ## Decisions
 
