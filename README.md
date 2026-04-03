@@ -102,6 +102,7 @@ submission audio:
 |---|---|---|---|
 | n_mels=128 | 45.00% | 36.50% | 35.00% |
 | n_mels=64 | 47.25% | 39.50% | 34.75% |
+
 Using n_mels=64 gives a better result while being less computationally expensive.
 
 ### With vs Without pre-emphasis
@@ -110,14 +111,15 @@ With: `y = librosa.effects.preemphasis(y, coef=0.97)  # Boost higher frequencies
 |---|---|---|---|
 | With | 43.25% | 39.50% | 33.00% |
 | Without | 41.50% | 41.25% | 38.00% |
+
 Although using pre-emphasis boosts the accuracy of clean audio clips, noisy and band-limited accuracy takes a dip. Pre-emphasis is not used.
 
 
 ### Results
 | Version | Accuracy |
 |---|---|
-| Clean | XX% |
-| Noisy | XX% |
-| Band-limited | XX% |
+| Clean | 54.50% |
+| Noisy | 45.25% |
+| Band-limited | 40.25% |
 
 
